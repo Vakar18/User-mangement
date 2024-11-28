@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #c9c3c3b4;
+    --secondary-color: #333;
+    --text-color: #fff;
+    --link-color: #1e90ff;
+    --button-bg: #555;
+    --button-text: #fff;
+  }
+  
+.App {
+    padding: 20px;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  table {
+    background-color: var(--primary-color);
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    background-color: var(--primary-color);
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #43f5ce;
+    color: white;
+  }
+  
+  .error {
+    color: red;
+    margin: 10px 0;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    margin: 0 10px;
+    padding: 5px 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    padding: 8px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
